@@ -37,6 +37,7 @@ export const HeroContent = () => {
         </motion.p>
         <motion.a
         variants={slideInFromLeft(1)}
+        href='#skills'
         className='py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]' 
         >
             Pogledaj vise!
