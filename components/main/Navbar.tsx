@@ -1,6 +1,7 @@
 import { Socials } from '@/constants'
 import Image from 'next/image'
 import React from 'react'
+import { RxLinkedinLogo } from 'react-icons/rx'
 
 export const Navbar = () => {
   return (
@@ -22,24 +23,25 @@ export const Navbar = () => {
 
         <div className='w-[500px] h-full flex flex-row items-center justify-between md:mr-20'>
             <div className='flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200'>
-        <a href="#about-us" className='cursor-pointer'>O nama</a>
+        <a href="#about-uss" className='cursor-pointer'>O nama</a>
         <a href="#skills" className='cursor-pointer'>Jezici</a>
         <a href="#projects" className='cursor-pointer'>Projekti</a>
             </div>
         </div>
 
         <div className='flex flex-row gap-5'>
-        {Socials.map((social) => (
-            <Image
-                src={social.src}
-                alt={social.name}
-                key={social.name}
-                width={24}
-                height={24}
-            />
-        ))}
-
+            {Socials.map((social) => (
+            <a href={social.link} target="_blank" rel="noopener noreferrer" key={social.name}>
+                <Image
+                    src={social.src}
+                    alt={social.name}
+                    width={24}
+                    height={24}
+                />
+            </a>
+            ))}
         </div>
+
             </div>
     </div>
   )

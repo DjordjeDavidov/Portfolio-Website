@@ -14,17 +14,17 @@ export const SkillText = () => {
             className='Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9] rounded-[15px]'
         >
             <SparklesIcon className='text-[#b49bff] mr-[5px] h-5 w-5' />
-            <h1 className='Welcome-text text-[13px]'>Think better with js 13</h1>
+            <h1 className='Welcome-text text-[13px] z-[21]'>Think better with js 13</h1>
         </motion.div>
         <motion.div
         variants={slideInFromLeft(0.5)}
-        className='text-[30px] text-white font-medium mt-[10px] text-center mb-[15px]'
+        className='text-[30px] text-white font-medium mt-[10px] text-center mb-[15px] z-[22]'
         >
             Dizajniranje sajtova uz modernu tehnologiju
         </motion.div>
         <motion.div
         variants={slideInFromRight(0.5)}
-        className='cursive text-[20px] text-gray-200 mb-10 mt-[10px] text-center'
+        className='cursive text-[20px] text-gray-200 mb-10 mt-[10px] text-center z-[22]'
         >
             Uvek ispunimo zadatak sa efikasnoscu na vreme
         </motion.div>

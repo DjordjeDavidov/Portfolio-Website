@@ -18,23 +18,26 @@ export const HeroContent = () => {
             <h1  className='Welcome-text text-[13px]'>Frontend Web Developers</h1>
         </motion.div>
         <motion.div
-        variants={slideInFromLeft(0.5)}
-        className='flex flex-col gap-6 mt-6 text-7xl font-bold text-white max-w-[600px] w-auto h-auto'
-        >
+            variants={slideInFromLeft(0.5)}
+            className="flex flex-col gap-6 mt-6 text-4xl md:text-7xl font-bold text-white max-w-[600px] w-auto h-auto"
+            >
             <span>
-            Obezbedjujemo
-            <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'> najbolje </span>
-            iskustvo
+                Obezbeđujemo
+                <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'> najbolje </span>
+                iskustvo
             </span>
         </motion.div>
 
+
+
         <motion.p
-        variants={slideInFromLeft(0.8)}
-        className='text-lg text-gray-400 my-5 max-w-[600px]'
-        >
-            FlowSite cini grupa mladih, entuzijasticnih studenata FON-a sa iskustvom
-            u pravljenju sajtova. Pogledajte nase projekte i vestine!
+            variants={slideInFromLeft(0.8)}
+            className='text-lg text-gray-400 my-5 max-w-[600px] md:max-w-none  md:mx-auto'
+            >
+            FlowSite čini grupa mladih, entuzijastičnih studenata FON-a sa iskustvom u
+            pravljenju sajtova. Pogledajte naše projekte i veštine!
         </motion.p>
+
         <motion.a
         variants={slideInFromLeft(1)}
         href='#skills'

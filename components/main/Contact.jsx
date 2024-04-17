@@ -1,8 +1,8 @@
 // Contact.tsx
 
 import React from 'react';
-import { RxInstagramLogo, RxLinkedinLogo } from 'your-icon-library'; // Import your icon components
-import { MdEmail } from 'react-icons/md'; // Import the MdEmail icon from react-icons library
+import { RxInstagramLogo, RxLinkedinLogo } from 'your-icon-library';
+import { MdEmail } from 'react-icons/md';
 
 const Contact = () => {
   const handleInstagramClick = () => {
@@ -27,7 +27,7 @@ const Contact = () => {
       <div className='font-bold text-[16px]'>Kontakt</div>
       <p className='flex dlex-row items-center my-[15px] cursor-pointer'>
         <MdEmail />
-        <a href="mailto:nasaemailadresa@gmail.com" className='text-[15px] ml-[6px]'>nasaemailadresa@gmail.com</a>
+        <a href="nasaemailadresa@gmail.com" className='text-[15px] ml-[6px]'>nasaemailadresa@gmail.com</a>
       </p>
     </div>
   );
