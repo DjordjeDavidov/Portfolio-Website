@@ -20,7 +20,7 @@ const Projects = () => {
         </a>
         <a href="https://flowsite-7rmmjf844-djordjedavidovs-projects.vercel.app/" target="_blank" rel="noopener noreferrer">
           <ProjectCard
-            src="/SpaceWebsite.png"
+            src="/Portfolio.png"
             title="Portfolio website"
             description='Portfolio sajt omogućava korisnicima da istraže različite projekte i radove. Pregledajte detalje svakog projekta, kontaktirajte autora i istražite prethodne radove. Navigacija je jednostavna i intuitivna, olakšavajući istraživanje i upoznavanje sa autorovim radom.'
           />

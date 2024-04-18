@@ -16,11 +16,11 @@ export const Footer = () => {
         <div className='font-bold text-[16px] z-[21]'>Drustvene mreze</div>
             <p className='flex dlex-row items-center my-[15px] cursor-pointer z-[21]'>
                 <RxInstagramLogo />
-                <a href="https://www.instagram.com/davidov.dj/" target="_blank" rel="noopener noreferrer"><span className='text-[15px] ml-[6px] z-[21]'>Instagram</span></a>
+                <a href="https://www.instagram.com/flowsiters/" target="_blank" rel="noopener noreferrer"><span className='text-[15px] ml-[6px] z-[21]'>Instagram</span></a>
             </p>
             <p className='flex dlex-row items-center my-[15px] cursor-pointer'>
                 <RxLinkedinLogo />
-                <a href="https://www.linkedin.com/your_linkedin_username" target="_blank" rel="noopener noreferrer"><span className='text-[15px] ml-[6px] z-[21]'>Linked In</span>
+                <a href="https://www.linkedin.com/in/flow-site-5a6b46304/" target="_blank" rel="noopener noreferrer"><span className='text-[15px] ml-[6px] z-[21]'>Linked In</span>
                 </a>
             </p>
         </div>
@@ -30,7 +30,7 @@ export const Footer = () => {
                     <div className='font-bold text-[16px] z-[21]'>Kontakt</div>
                     <p className='flex dlex-row items-center my-[15px] cursor-pointer'>
                         <MdEmail />
-                        <span className='text-[15px] ml-[6px] z-[21]'>Email: <a href="mailto:nasaemailadresa@gmail.com">nasaemailadresa@gmail.com</a></span>
+                        <span className='text-[15px] ml-[6px] z-[21]'>Email: <a href="mailto:flowsiters@gmail.com">flowsiters@gmail.com</a></span>
                     </p>
                 </div>
             </div>
