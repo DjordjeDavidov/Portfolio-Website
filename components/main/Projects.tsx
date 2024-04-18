@@ -18,7 +18,7 @@ const Projects = () => {
             description='Sajt za kineski restoran omogućava korisnicima da pregledaju meni sa raznolikim kineskim jelima, cene, novosti i lokaciju restorana. Takođe omogućava naručivanje hrane putem dostavljačkih platformi i rezervaciju stolova. Pruža sve potrebne informacije o restoranu kako bi korisnicima olakšao planiranje posete i uživanje u kvalitetnoj kineskoj kuhinji.'
           />
         </a>
-        <a href="https://flowsite-7rmmjf844-djordjedavidovs-projects.vercel.app/" target="_blank" rel="noopener noreferrer">
+        <a href="https://flowsite.vercel.app/" target="_blank" rel="noopener noreferrer">
           <ProjectCard
             src="/Portfolio.png"
             title="Portfolio website"
