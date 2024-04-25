@@ -23,7 +23,7 @@ const AboutUs = () => {
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         />
         <AboutUsCard
-          src="/SpaceWebsite.png"
+          src="/Vuk Betman.png"
           title="Vuk"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         />
