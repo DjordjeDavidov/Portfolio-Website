@@ -11,21 +11,21 @@ const AboutUs = () => {
       <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
         Nas Tim
       </h1>
-      <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-10 px-10">
         <AboutUsCard
-          src="/NextWebsite.png"
+          src="/Luka.png"
           title="Luka"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          description="lUKA"
         />
         <AboutUsCard
           src="/Ja-bgr.png"
           title="Djordje"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          description="Zdravo, ja sam Đorđe. Već četiri godine, aktivno se posvećujem razvoju veb aplikacija i to mi pruža zadovoljstvo. Takođe sam student na FON-u s namerom da svoju strast pretvorim u profesiju. Sa svoja dva prijatelja, planiram dalji razvoj u ovoj oblasti."
         />
         <AboutUsCard
           src="/Vuk Betman.png"
           title="Vuk"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          description="Zdravo, ja sam Vuk, dvadesetogodišnji entuzijasta za veb, trenutno student na FON fakultetu. Od svoje 16. godine, posvećeno se bavim kreiranjem veb sajtova, a sada sam odlučio da svoj hobi pretvorim u profesiju sa još dva prijatelja koja dele isto interesovanje"
         />
       </div>
     </div>
