@@ -19,7 +19,7 @@ const Projects = () => {
           <ProjectCard
             src="/Portfolio.png"
             title="Portfolio website"
-            description="Portfolio sajt omogućava korisnicima da istraže različite projekte i radove. Pregledajte detalje svakog projekta, kontaktirajte autora i istražite prethodne radove. Navigacija je jednostavna i intuitivna, olakšavajući istraživanje i upoznavanje sa autorovim radom."
+            description="Portfolio sajt rađen po modelu modernih sajtova uz inovativan webdesign. Izrađen koristeći najnovije programske jezike i njihove biblioteke. Trenutno pokazuje nivo našeg znanja i veština."
           />
         </a>
       </div>

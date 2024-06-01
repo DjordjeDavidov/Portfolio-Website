@@ -15,7 +15,7 @@ const AboutUs = () => {
         <AboutUsCard
           src="/Luka.png"
           title="Luka"
-          description="lUKA"
+          description="Zdravo! Moje ime je Luka, imam 20 godina. Trenutno sam student Fakulteta organizacionih nauka (FON). Već tri godine se aktivno bavim izradom sajtova, gde sam stekao značajno iskustvo u web dizajnu i programiranju. Pored toga, bavim se i network marketingom, što mi omogućava da se povežem s različitim ljudima i razvijam svoje poslovne veštine."
         />
         <AboutUsCard
           src="/Ja-bgr.png"
