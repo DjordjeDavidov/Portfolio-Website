@@ -36,7 +36,7 @@ export const HeroContent = () => {
             >
             Radite svoj posao najbolje što možete, 
             a mi ćemo se pobrinuti za vašu veb stranicu. 
-            Podignimo vaš biznis na viši nivo zajedno!"
+            Podignimo vaš biznis na viši nivo zajedno!
         </motion.p>
 
         <motion.a
