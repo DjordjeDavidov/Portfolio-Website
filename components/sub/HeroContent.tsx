@@ -19,7 +19,7 @@ export const HeroContent = () => {
         </motion.div>
         <motion.div
             variants={slideInFromLeft(0.5)}
-            className="flex flex-col text-4xl md:text-7xl font-bold text-white max-w-[600px] w-auto h-auto"
+            className='flex flex-col text-4xl md:text-7xl font-bold text-white max-w-[600px] w-auto h-auto'
             >
             <span>
                 Zagarantovano pobedite
@@ -29,7 +29,7 @@ export const HeroContent = () => {
         </motion.div>
 
 
-
+ 
         <motion.p
             variants={slideInFromLeft(0.8)}
             className='text-lg text-gray-400 my-5 max-w-[600px] md:max-w-none  md:mx-auto'
