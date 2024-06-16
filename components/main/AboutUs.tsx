@@ -1,7 +1,6 @@
 import React from "react";
 import AboutUsCard from "../sub/AboutUsCard";
 
-
 const AboutUs = () => {
   return (
     <div
@@ -11,6 +10,12 @@ const AboutUs = () => {
       <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
         Nas Tim
       </h1>
+      <div className="w-full md:w-7/10 text-center">
+        <p className="text-white text-lg md:text-xl max-w-full px-6 mb-8">
+          FlowSite čini grupa mladih, entuzijastičnih studenata FON-a sa iskustvom u
+          pravljenju sajtova. Pogledajte naše projekte i veštine!
+        </p>
+      </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10 px-10">
         <AboutUsCard
           src="/Luka.png"

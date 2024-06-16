@@ -26,6 +26,7 @@ export const Navbar = () => {
         <a href="#about-uss" className='cursor-pointer'>O nama</a>
         <a href="#skills" className='cursor-pointer'>Jezici</a>
         <a href="#projects" className='cursor-pointer'>Projekti</a>
+        <a href="#kontakt" className='cursor-pointer'>Kontakt</a>
             </div>
         </div>
 

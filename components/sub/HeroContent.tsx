@@ -19,13 +19,13 @@ export const HeroContent = () => {
         </motion.div>
         <motion.div
             variants={slideInFromLeft(0.5)}
-            className="flex flex-col gap-6 mt-6 text-4xl md:text-7xl font-bold text-white max-w-[600px] w-auto h-auto"
+            className="flex flex-col text-4xl md:text-7xl font-bold text-white max-w-[600px] w-auto h-auto"
             >
             <span>
-                Obezbeđujemo
-                <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'> najbolje </span>
-                iskustvo
-            </span>
+                Zagarantovano pobedite
+                <span className='mt-10 mb-10 text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'> konkurenciju </span>
+                uz dobar sajt!
+            </span>                             
         </motion.div>
 
 
@@ -34,16 +34,17 @@ export const HeroContent = () => {
             variants={slideInFromLeft(0.8)}
             className='text-lg text-gray-400 my-5 max-w-[600px] md:max-w-none  md:mx-auto'
             >
-            FlowSite čini grupa mladih, entuzijastičnih studenata FON-a sa iskustvom u
-            pravljenju sajtova. Pogledajte naše projekte i veštine!
+            Radite svoj posao najbolje što možete, 
+            a mi ćemo se pobrinuti za vašu veb stranicu. 
+            Podignimo vaš biznis na viši nivo zajedno!"
         </motion.p>
 
         <motion.a
         variants={slideInFromLeft(1)}
-        href='#skills'
+        href='#kontakt'
         className='py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]' 
         >
-            Pogledaj vise!
+            Kontaktirajte nas
         </motion.a>
         </div>
 
