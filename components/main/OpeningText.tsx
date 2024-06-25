@@ -4,7 +4,7 @@ import React from 'react';
 
 export const OpeningText = () => {
   return (
-    <div className='flex flex-col items-center justify-center text-center pt-10 z-21'>
+    <div className='flex flex-col items-center justify-center text-center pt-20 z-21'>
       <h1 className='text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-white to-purple-500'>
         Veb stranica je važna..
       </h1>
