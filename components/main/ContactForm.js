@@ -1,6 +1,7 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -10,36 +11,29 @@ const ContactForm = () => {
     message: ''
   });
 
+  const form = useRef();
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
   };
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
-    try {
-      const response = await fetch('/api/send', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(formData),
-      });
 
-      if (response.ok) {
-        alert('Poruka uspešno poslata!');
-        setFormData({
-          firstName: '',
-          lastName: '',
-          email: '',
-          message: ''
+    emailjs.sendForm('service_av587lr', 'template_jqq7c42', form.current, 'WZ_eMbcldiba2b0kk')
+      .then(() => {
+          alert('Poruka uspešno poslata!');
+          setFormData({
+            firstName: '',
+            lastName: '',
+            email: '',
+            message: ''
+          });
+        }, (error) => {
+          alert('Došlo je do greške pri slanju poruke.');
+          console.log('FAILED...', error.text);
         });
-      } else {
-        alert('Došlo je do greške pri slanju poruke.');
-      }
-    } catch (error) {
-      alert('Došlo je do greške: ' + error.message);
-    }
   };
 
   return (
@@ -53,7 +47,7 @@ const ContactForm = () => {
           popunite formu ispod i javicemo vam se u roku od 24h. Bez obaveza, bez pritiska i marketinčkih taktika, sigurno i jednostavno!
         </p>
         <div className="max-w-xl mx-auto">
-          <form onSubmit={handleSubmit} className="bg-[#0300145e] bg-opacity-80 shadow-md rounded z-20 p-6">
+          <form ref={form} onSubmit={handleSubmit} className="bg-[#0300145e] bg-opacity-80 shadow-md rounded z-20 p-6">
             <div className="mb-6">
               <input
                 type="text"
@@ -62,6 +56,7 @@ const ContactForm = () => {
                 value={formData.firstName}
                 onChange={handleChange}
                 className="w-full px-4 py-2 border rounded bg-transparent border-gray-400 text-gray-200 placeholder-gray-400 focus:outline-none focus:border-purple-500"
+                required
               />
             </div>
             <div className="mb-6">
@@ -72,6 +67,7 @@ const ContactForm = () => {
                 value={formData.lastName}
                 onChange={handleChange}
                 className="w-full px-4 py-2 border rounded bg-transparent border-gray-400 text-gray-200 placeholder-gray-400 focus:outline-none focus:border-purple-500"
+                required
               />
             </div>
             <div className="mb-6">
@@ -82,6 +78,7 @@ const ContactForm = () => {
                 value={formData.email}
                 onChange={handleChange}
                 className="w-full px-4 py-2 border rounded bg-transparent border-gray-400 text-gray-200 placeholder-gray-400 focus:outline-none focus:border-purple-500"
+                required
               />
             </div>
             <div className="mb-6">
@@ -91,6 +88,7 @@ const ContactForm = () => {
                 value={formData.message}
                 onChange={handleChange}
                 className="w-full px-4 py-2 border rounded bg-transparent border-gray-400 text-gray-200 placeholder-gray-400 focus:outline-none focus:border-purple-500"
+                required
               />
             </div>
             <div className="flex justify-center">
