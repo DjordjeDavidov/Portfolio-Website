@@ -16,7 +16,7 @@ export const Footer = () => {
         <div className='font-bold text-[16px] z-[21]'>Social media</div>
             <p className='flex dlex-row items-center my-[15px] cursor-pointer z-[21]'>
                 <RxInstagramLogo />
-                <a href="https://www.instagram.com/flowsiters/" target="_blank" rel="noopener noreferrer"><span className='text-[15px] ml-[6px] z-[21]'>Instagram</span></a>
+                <a href="https://www.instagram.com/vireonglobal/" target="_blank" rel="noopener noreferrer"><span className='text-[15px] ml-[6px] z-[21]'>Instagram</span></a>
             </p>
             <p className='flex dlex-row items-center my-[15px] cursor-pointer'>
                 <RxLinkedinLogo />
