@@ -9,7 +9,7 @@ export const Navbar = () => {
         <div className='w-full h-full flex flex-row items-center justify-between m-auto px-[10px]'>      
         <a href="#about-us" className='h-auto w-auto flex flex-row items-center'>
             <Image
-                src='/FlowSiteLogo.png'
+                src='/Vireon logo.png'
                 alt='logo'
                 width={70}
                 height={70}
@@ -17,16 +17,16 @@ export const Navbar = () => {
             />
 
             <span className='font-bold ml-[10px] hidden md:block text-gray-300'>
-                FlowSite
+                Vireon
             </span>
         </a>
 
         <div className='w-[500px] h-full flex flex-row items-center justify-between md:mr-20'>
             <div className='flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200'>
-        <a href="#about-uss" className='cursor-pointer'>O nama</a>
-        <a href="#skills" className='cursor-pointer'>Jezici</a>
-        <a href="#projects" className='cursor-pointer'>Projekti</a>
-        <a href="#kontakt" className='cursor-pointer'>Kontakt</a>
+        <a href="#about-uss" className='cursor-pointer'>About Us</a>
+        <a href="#skills" className='cursor-pointer'>AI Bots</a>
+        <a href="#projects" className='cursor-pointer'>Projects</a>
+        <a href="#kontakt" className='cursor-pointer'>Contact Us</a>
             </div>
         </div>
 
