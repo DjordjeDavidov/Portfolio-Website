@@ -1,33 +1,33 @@
 // Contact.tsx
 
-import React from 'react';
-import { RxInstagramLogo, RxLinkedinLogo } from 'your-icon-library';
-import { MdEmail } from 'react-icons/md';
+import React from "react";
+import { RxInstagramLogo, RxLinkedinLogo } from "your-icon-library";
+import { MdEmail } from "react-icons/md";
 
 const Contact = () => {
   const handleInstagramClick = () => {
-    window.open('https://www.instagram.com/', '_blank');
+    window.open("https://www.instagram.com/", "_blank");
   };
 
   const handleLinkedInClick = () => {
-    window.open('https://www.linkedin.com/', '_blank');
+    window.open("https://www.linkedin.com/", "_blank");
   };
 
   return (
-    <div className='min-w-[200px] h-auto flex flex-col items-center justify-start'>
-      <div className='font-bold text-[16px]'>Drustvene mreze</div>
-      <p className='flex dlex-row items-center my-[15px] cursor-pointer' onClick={handleInstagramClick}>
+    <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
+      <div className="font-bold text-[16px]">Drustvene mreze</div>
+      <p className="flex dlex-row items-center my-[15px] cursor-pointer" onClick={handleInstagramClick}>
         <RxInstagramLogo />
-        <span className='text-[15px] ml-[6px]'>Instagram</span>
+        <span className="text-[15px] ml-[6px]">Instagram</span>
       </p>
-      <p className='flex dlex-row items-center my-[15px] cursor-pointer' onClick={handleLinkedInClick}>
+      <p className="flex dlex-row items-center my-[15px] cursor-pointer" onClick={handleLinkedInClick}>
         <RxLinkedinLogo />
-        <span className='text-[15px] ml-[6px]'>Linked In</span>
+        <span className="text-[15px] ml-[6px]">Linked In</span>
       </p>
-      <div className='font-bold text-[16px]'>Kontakt</div>
-      <p className='flex dlex-row items-center my-[15px] cursor-pointer'>
+      <div className="font-bold text-[16px]">Kontakt</div>
+      <p className="flex dlex-row items-center my-[15px] cursor-pointer">
         <MdEmail />
-        <a href="nasaemailadresa@gmail.com" className='text-[15px] ml-[6px]'>nasaemailadresa@gmail.com</a>
+        <a href="nasaemailadresa@gmail.com" className="text-[15px] ml-[6px]">nasaemailadresa@gmail.com</a>
       </p>
     </div>
   );

@@ -36,7 +36,7 @@ export const HeroContent = () => {
             className='text-lg text-gray-400 my-5 max-w-[600px] md:max-w-none  md:mx-auto'
             >
             Focus on growing your business, and let us transform your customer engagement with intelligent AI chatbots. Together,
-             we'll elevate your business to new heights!
+             we will elevate your business to new heights!
         </motion.p>
 
         <motion.a
