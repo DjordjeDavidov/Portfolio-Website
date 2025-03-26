@@ -53,7 +53,7 @@ export const HeroContent = () => {
             className="w-full h-full flex justify-center items-center hidden md:flex relative"
             >
             <div className="w-[800px] h-[800px] flex items-center -mt-12">
-                <Spline scene="https://prod.spline.design/ABUTbgvfbFjkT3ul/scene.splinecode" />
+                <Spline scene="https://prod.spline.design/vS8PJObvO4GKxF1n/scene.splinecode" />
             </div>
         </motion.div>
 

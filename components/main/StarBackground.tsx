@@ -37,8 +37,8 @@ export const StarBackground = (props: any) => {
     );
 };
 
-const StarsCanvas = () => (
-    <div className="w-full h-auto fixed inset-0 z-[1]">
+const StarsCanvas = (() =>  
+    <div className="w-full h-auto fixed inset-0 z-[-1]">
         <div style={{ position: 'relative', width: '100%', height: '100%' }}>
             <Canvas camera={{ position: [0, 0, 1] }}>
                 <StarBackground />

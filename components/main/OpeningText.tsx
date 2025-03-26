@@ -4,54 +4,25 @@ import React from 'react';
 
 export const OpeningText = () => {
   return (
-    <div className='flex flex-col items-center justify-center text-center pt-20 z-21'>
-      <h1 className='text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-white to-purple-500'>
-        Veb stranica je važna..
-      </h1>
-      <p className='text-white text-2xl mt-4 w-full md:w-1/2'>
-        Ali već imate previše obaveza i pronalaženje dobrog programera koji razume vašu viziju je teško..
-      </p>
-      <h1 className='text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-white mt-20'>
-        Kako onda doći do svoje veb stranice?..
-      </h1>
-
-      {/* Cards Section */}
-      <div className='flex flex-wrap justify-center mt-10 gap-8 z-10 max-w-screen-lg mx-10'>
-        {/* Card 1 */}
-        <div className='w-full md:w-1/3 bg-purple-500 bg-opacity-50 to-mint-500 bg-opacity-50 rounded-lg border border-gradient p-4'>
-          <h2 className='text-2xl font-bold mb-2 text-center'>Uradite sve sami?</h2>
-          <p className='text-white text-lg text-center'>Ovo je dobro kada nemate puno obaveza, ali ako ste preokupirani zadacima, onda dupli posao i nije najbolje rešenje za vas.</p>
-        </div>
-
-        {/* Card 2 */}
-        <div className='w-full md:w-1/3 bg-purple-500 bg-opacity-50 to-mint-500 bg-opacity-50 rounded-lg border border-gradient p-4 mt-6 md:mt-0'>
-          <h2 className='text-2xl font-bold mb-2 text-center'>Putem klasičnih agencija?</h2>
-          <p className='text-white text-lg text-center'>Ako raspolažete velikim budžetom, onda i ima šanse da vas projekat ne završi kod asistentovog asistenta.</p>
-        </div>
-
-        {/* Card 3 */}
-        <div className='w-full md:w-1/3 bg-purple-500 bg-opacity-50 to-mint-500 bg-opacity-50 rounded-lg border border-gradient p-4 mt-6 md:mt-0'>
-          <h2 className='text-2xl font-bold mb-2 text-center'>Ne preduzeti ništa?</h2>
-          <p className='text-white text-lg text-center'>Ako želite da uvek budete ispod vaše konkurencije, onda je ovo odlično rešenje za vas.</p>
+    <div id='ai-bots' className='flex flex-col md:flex-row items-center justify-between px-10 py-20'>
+      {/* Image Placeholder */}
+      <div className='hidden md:flex w-full md:w-1/3 justify-center items-center'>
+        <div className='w-60 h-60 rounded-lg flex items-center justify-center border border-gray-300'>
+          <span className='text-gray-500'>[Your Image Here]</span>
         </div>
       </div>
 
-      {/* Video */}
-      <div className='w-full h-full absolute mt-20 top-50'>
-        <div className='w-full h-full z-1 opacity-30 absolute flex items-center justify-center bg-cover'>
-          <video 
-            className='w-full h-auto'
-            preload='false'
-            playsInline
-            loop
-            muted
-            autoPlay
-            src='/cards-video.webm'
-          />
-        </div>
+      {/* Text Content */}
+      <div className='w-full md:w-2/3 text-center md:text-right'>
+        <h2 className='text-center md:mt-15 mb-5 text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-white to-purple-500'>
+          AI Chatbot Solutions for Your Business
+        </h2>
+        <p className='text-center text-white w-full md:w-3/4 mx-auto'>
+          Chatbots are intelligent virtual assistants designed to revolutionize the way businesses interact with their customers. They can provide instant support, automate responses, and handle a vast number of inquiries without the need for human intervention. Whether you are running a small business or a large enterprise, a chatbot can streamline customer service, ensuring quick and accurate answers while reducing response time. By automating repetitive tasks, chatbots free up valuable resources, allowing your team to focus on more critical aspects of your business. Additionally, chatbots are available 24/7, ensuring that potential clients never leave without getting the information they need, which ultimately improves customer satisfaction and brand reputation. Beyond support, AI-powered chatbots can drive sales by guiding customers through the purchasing process, answering product-related questions, and even recommending personalized solutions based on user behavior and preferences. Businesses that integrate chatbots see a noticeable increase in engagement, conversions, and overall efficiency. If you are looking to enhance customer experience and boost revenue, our AI chatbot solutions can be fully customized to meet the specific needs of your business. Want to learn more? Contact us today to explore how our tailored chatbot solutions can transform your business and discover the pricing plan that best suits your needs.
+        </p>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default OpeningText;
