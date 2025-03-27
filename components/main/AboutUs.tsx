@@ -1,37 +1,19 @@
 import React from "react";
-import AboutUsCard from "../sub/AboutUsCard";
 
 const AboutUs = () => {
   return (
-    <div
-      className="flex flex-col items-center justify-center py-20"
-      id="about-uss"
-    >
+    <div className="flex flex-col items-center justify-center py-20" id="about-us">
       <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
-        Nas Tim
+        Our Team
       </h1>
       <div className="w-full md:w-7/10 text-center">
         <p className="text-white text-lg md:text-xl max-w-full px-6 mb-8">
-          FlowSite čini grupa mladih, entuzijastičnih studenata FON-a sa iskustvom u
-          pravljenju sajtova. Pogledajte naše projekte i veštine!
+          Vireon is a leading innovator in AI-powered chatbot solutions, dedicated to transforming digital interactions for businesses. Our team consists of highly skilled professionals specializing in artificial intelligence, web development, and user experience design. We craft intelligent virtual assistants that seamlessly integrate with websites, providing real-time customer support, automating processes, and enhancing engagement. 
+          <br /><br />
+          At Vireon, we leverage advanced natural language processing (NLP) and machine learning to develop chatbots that are not only responsive but also adaptive to user needs. Our AI solutions are designed to understand customer behavior, personalize interactions, and drive meaningful conversations. Whether it’s for e-commerce, customer service, or lead generation, our chatbots optimize workflow efficiency and improve user satisfaction.
+          <br /><br />
+          What sets us apart is our commitment to innovation and excellence. We continuously refine our AI models to ensure that our chatbots provide human-like interactions with unparalleled accuracy. Our dedication to seamless integration and scalability makes us the go-to choice for businesses looking to enhance their digital presence. Join us in redefining the future of AI-driven communication.
         </p>
-      </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-10 px-10">
-        <AboutUsCard
-          src="/Luka.png"
-          title="Luka"
-          description="Zdravo! Moje ime je Luka, imam 20 godina. Trenutno sam student Fakulteta organizacionih nauka (FON). Već tri godine se aktivno bavim izradom sajtova, gde sam stekao značajno iskustvo u web dizajnu i programiranju. Pored toga, bavim se i network marketingom, što mi omogućava da se povežem s različitim ljudima i razvijam svoje poslovne veštine."
-        />
-        <AboutUsCard
-          src="/Ja-bgr.png"
-          title="Djordje"
-          description="Zdravo, ja sam Đorđe. Već četiri godine, aktivno se posvećujem razvoju veb aplikacija i to mi pruža zadovoljstvo. Takođe sam student na FON-u s namerom da svoju strast pretvorim u profesiju. Sa svoja dva prijatelja, planiram dalji razvoj u ovoj oblasti."
-        />
-        <AboutUsCard
-          src="/Vuk Betman.png"
-          title="Vuk"
-          description="Zdravo, ja sam Vuk, dvadesetogodišnji entuzijasta za veb, trenutno student na FON fakultetu. Od svoje 16. godine, posvećeno se bavim kreiranjem veb sajtova, a sada sam odlučio da svoj hobi pretvorim u profesiju sa još dva prijatelja koja dele isto interesovanje"
-        />
       </div>
     </div>
   );

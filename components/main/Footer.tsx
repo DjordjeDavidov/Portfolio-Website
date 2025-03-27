@@ -26,7 +26,7 @@ export const Footer = () => {
         </div>
 
 
-                <div className='min-w-[200px] h-auto flex flex-col items-center justify-start'>
+                <div id='contact-us' className='min-w-[200px] h-auto flex flex-col items-center justify-start'>
                     <div className='font-bold text-[16px] z-[21]'>Contact Us</div>
                     <p className='flex dlex-row items-center my-[15px] cursor-pointer'>
                         <MdEmail />
